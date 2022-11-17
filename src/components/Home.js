@@ -194,6 +194,10 @@ export default function Home() {
                 </ListItemButton>
               </ListItem>
             ))}
+            <ListItem
+              button
+              key={"Repo stats"}>
+            </ListItem>
           </List>
         </Box>
       </Drawer>
