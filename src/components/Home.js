@@ -197,6 +197,9 @@ export default function Home() {
             <ListItem
               button
               key={"Repo stats"}>
+              <ListItemButton>
+                <ListItemText primary={"Repo stats"} />
+              </ListItemButton>
             </ListItem>
           </List>
         </Box>
