@@ -328,6 +328,50 @@ export default function Home() {
                 Keras LSTM based on past month
               </Typography>
             </div>
+            {/* Rendering Timeseries Forecasting of Commits using Tensorflow and
+                Keras LSTM */}
+            <div>
+              <Divider
+                sx={{ borderBlockWidth: "3px", borderBlockColor: "#FFA500" }}
+              />
+              <Typography variant="h5" component="div" gutterBottom>
+                Timeseries Forecasting of Commits using Tensorflow and
+                Keras LSTM based on past month
+              </Typography>
+            </div>
+            {/* Rendering Timeseries Forecasting of Branches using Tensorflow and
+                Keras LSTM */}
+            <div>
+              <Divider
+                sx={{ borderBlockWidth: "3px", borderBlockColor: "#FFA500" }}
+              />
+              <Typography variant="h5" component="div" gutterBottom>
+                Timeseries Forecasting of Branches using Tensorflow and
+                Keras LSTM based on past month
+              </Typography>
+            </div>
+            {/* Rendering Timeseries Forecasting of Contributors using Tensorflow and
+                Keras LSTM */}
+            <div>
+              <Divider
+                sx={{ borderBlockWidth: "3px", borderBlockColor: "#FFA500" }}
+              />
+              <Typography variant="h5" component="div" gutterBottom>
+                Timeseries Forecasting of Contributors using Tensorflow and
+                Keras LSTM based on past month
+              </Typography>
+            </div>
+            {/* Rendering Timeseries Forecasting of Releases using Tensorflow and
+                Keras LSTM */}
+            <div>
+              <Divider
+                sx={{ borderBlockWidth: "3px", borderBlockColor: "#FFA500" }}
+              />
+              <Typography variant="h5" component="div" gutterBottom>
+                Timeseries Forecasting of Releases using Tensorflow and
+                Keras LSTM based on past month
+              </Typography>
+            </div>
           </div>
         )}
       </Box>
