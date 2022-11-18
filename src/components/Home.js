@@ -317,6 +317,17 @@ export default function Home() {
                 />
               </div>
             </div>
+            {/* Rendering Timeseries Forecasting of Pulls using Tensorflow and
+                Keras LSTM */}
+            <div>
+              <Divider
+                sx={{ borderBlockWidth: "3px", borderBlockColor: "#FFA500" }}
+              />
+              <Typography variant="h5" component="div" gutterBottom>
+                Timeseries Forecasting of Pulls using Tensorflow and
+                Keras LSTM based on past month
+              </Typography>
+            </div>
           </div>
         )}
       </Box>
