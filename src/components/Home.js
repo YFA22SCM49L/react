@@ -221,6 +221,11 @@ export default function Home() {
               title={`Monthly Closed Issues for ${repository.value} in last 2 years`}
               data={githubRepoData?.closed}
             />
+            {/* Render barchart component for number of forks for all repositories*/}
+            <BarCharts
+              title={"Stars for every repository"}
+              data={githubRepoData?.starCounts}
+            />
             <Divider
               sx={{ borderBlockWidth: "3px", borderBlockColor: "#FFA500" }}
             />
