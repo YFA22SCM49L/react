@@ -232,8 +232,8 @@ export default function Home() {
             />
             <StackedBarCharts
               title={"Created and Closed Issues for Every Repository"}
-              data1={githubRepoData?.monthlyCreatedIssuesCounts}
-              data2={githubRepoData?.monthlyClosedIssuesCounts}
+              data1={githubRepoData?.monthlyClosedIssuesCounts}
+              data2={githubRepoData?.monthlyCreatedIssuesCounts}
             />
             <Divider
               sx={{ borderBlockWidth: "3px", borderBlockColor: "#FFA500" }}
