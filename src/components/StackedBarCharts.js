@@ -29,7 +29,7 @@ const StackedBarCharts = (props) => {
       },
     },
     legend: {
-      enabled: false,
+      enabled: true,
     },
     tooltip: {
       pointFormat: "Issues: <b>{point.y} </b>",
@@ -41,7 +41,7 @@ const StackedBarCharts = (props) => {
     },
     series: [
       {
-        //name: props.title,
+        name: "closed",
         data: props.data1,
         dataLabels: {
           enabled: true,
@@ -57,7 +57,7 @@ const StackedBarCharts = (props) => {
         },
       },
       {
-        //name: props.title,
+        name: "created",
         data: props.data2,
         dataLabels: {
           enabled: true,
