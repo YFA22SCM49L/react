@@ -225,6 +225,10 @@ export default function Home() {
               title={"Forks for every repository"}
               data={githubRepoData?.forkCounts}
             />
+            <LineChart
+              title={"Created Issues for Every Repository"}
+              data={githubRepoData?.reposCreatedIssuesCounts}
+            />
             <Divider
               sx={{ borderBlockWidth: "3px", borderBlockColor: "#FFA500" }}
             />
