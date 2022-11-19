@@ -15,7 +15,7 @@ const StackedBarCharts = (props) => {
     xAxis: {
       type: "category",
       labels: {
-        rotation: -45,
+        rotation: -90,
         style: {
           fontSize: "13px",
           fontFamily: "Verdana, sans-serif",
@@ -33,6 +33,11 @@ const StackedBarCharts = (props) => {
     },
     tooltip: {
       pointFormat: "Issues: <b>{point.y} </b>",
+    },
+    plotOptions: {
+      series: {
+        stacking: 'normal',
+      },
     },
     series: [
       {
