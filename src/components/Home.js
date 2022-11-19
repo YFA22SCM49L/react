@@ -326,6 +326,41 @@ export default function Home() {
                 Timeseries Forecasting of Pulls using Tensorflow and
                 Keras LSTM based on past month
               </Typography>
+              <div>
+                <Typography component="h4">
+                  Model Loss for Pulls
+                </Typography>
+                {/* Render the model loss image for pulls  */}
+                <img
+                  src={githubRepoData?.pullsImageUrls?.model_loss_image_url}
+                  alt={"Model Loss for Pulls"}
+                  loading={"lazy"}
+                />
+              </div>
+              <div>
+                <Typography component="h4">
+                  LSTM Generated Data for Pulls
+                </Typography>
+                {/* Render the LSTM generated image for pulls */}
+                <img
+                  src={
+                    githubRepoData?.pullsImageUrls?.lstm_generated_image_url
+                  }
+                  alt={"LSTM Generated Data for Pulls"}
+                  loading={"lazy"}
+                />
+              </div>
+              <div>
+                <Typography component="h4">
+                  All Pulls
+                </Typography>
+                {/* Render the all pulls data image*/}
+                <img
+                  src={githubRepoData?.pullsImageUrls?.all_issues_data_image}
+                  alt={"All Pulls Data"}
+                  loading={"lazy"}
+                />
+              </div>
             </div>
             {/* Rendering Timeseries Forecasting of Commits using Tensorflow and
                 Keras LSTM */}
