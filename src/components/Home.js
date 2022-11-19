@@ -215,10 +215,15 @@ export default function Home() {
               title={`Monthly Closed Issues for ${repository.value} in last 2 years`}
               data={githubRepoData?.closed}
             />
-            {/* Render barchart component for number of forks for all repositories*/}
+            {/* Render barchart component for number of stars for all repositories*/}
             <BarCharts
               title={"Stars for every repository"}
               data={githubRepoData?.starCounts}
+            />
+            {/* Render barchart component for number of forks for all repositories*/}
+            <BarCharts
+              title={"Forks for every repository"}
+              data={githubRepoData?.forkCounts}
             />
             <Divider
               sx={{ borderBlockWidth: "3px", borderBlockColor: "#FFA500" }}
