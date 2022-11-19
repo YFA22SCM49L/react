@@ -22,6 +22,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 // Import custom components
 import BarCharts from "./BarCharts";
+import LineChart from "./LineChart";
 import Loader from "./Loader";
 import { ListItemButton } from "@mui/material";
 
