@@ -120,8 +120,7 @@ export default function Home() {
     const requestOptions = {
       method: "POST",
       headers: {
-        //"Content-Type": "application/json",
-        "Content-Type": "application/vnd.github.star+json"
+        "Content-Type": "application/json",
       },
       // Append the repository key to request body
       body: JSON.stringify({ repository: repository.key }),
