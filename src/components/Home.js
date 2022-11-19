@@ -195,13 +195,6 @@ export default function Home() {
                 </ListItemButton>
               </ListItem>
             ))}
-            <ListItem
-              button
-              key={"Repo stats"}>
-              <ListItemButton>
-                <ListItemText primary={"Repo stats"} />
-              </ListItemButton>
-            </ListItem>
           </List>
         </Box>
       </Drawer>
