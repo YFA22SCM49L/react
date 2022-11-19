@@ -23,6 +23,7 @@ import ListItemText from "@mui/material/ListItemText";
 // Import custom components
 import BarCharts from "./BarCharts";
 import LineChart from "./LineChart";
+import StackedBarCharts from "./StackedBarCharts";
 import Loader from "./Loader";
 import { ListItemButton } from "@mui/material";
 
@@ -229,6 +230,11 @@ export default function Home() {
             <LineChart
               title={"Created Issues for Every Repository"}
               data={githubRepoData?.reposCreatedIssuesCounts}
+            />
+            <StackedBarCharts
+              title={"Created and Closed Issues for Every Repository"}
+              data1={githubRepoData?.reposCreatedIssuesCounts}
+              data2={githubRepoData?.reposClosedIssuesCounts}
             />
             <Divider
               sx={{ borderBlockWidth: "3px", borderBlockColor: "#FFA500" }}
