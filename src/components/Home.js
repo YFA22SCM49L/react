@@ -341,11 +341,10 @@ export default function Home() {
                 Timeseries Forecasting of Pulls using Tensorflow and
                 Keras LSTM based on past month
               </Typography>
-              <div>
+              /*<div>
                 <Typography component="h4">
                   Model Loss for Pulls
                 </Typography>
-                {/* Render the model loss image for pulls  */}
                 <img
                   src={githubRepoData?.pullsImageUrls?.model_loss_image_url}
                   alt={"Model Loss for Pulls"}
@@ -356,7 +355,6 @@ export default function Home() {
                 <Typography component="h4">
                   LSTM Generated Data for Pulls
                 </Typography>
-                {/* Render the LSTM generated image for pulls */}
                 <img
                   src={
                     githubRepoData?.pullsImageUrls?.lstm_generated_image_url
@@ -369,13 +367,12 @@ export default function Home() {
                 <Typography component="h4">
                   All Pulls
                 </Typography>
-                {/* Render the all pulls data image*/}
                 <img
                   src={githubRepoData?.pullsImageUrls?.all_issues_data_image}
                   alt={"All Pulls Data"}
                   loading={"lazy"}
                 />
-              </div>
+              </div>*/
             </div>
             {/* Rendering Timeseries Forecasting of Commits using Tensorflow and
                 Keras LSTM */}
@@ -387,6 +384,38 @@ export default function Home() {
                 Timeseries Forecasting of Commits using Tensorflow and
                 Keras LSTM based on past month
               </Typography>
+              /*<div>
+                <Typography component="h4">
+                  Model Loss for Commits
+                </Typography>
+                <img
+                  src={githubRepoData?.commitsImageUrls?.model_loss_image_url}
+                  alt={"Model Loss for Commits"}
+                  loading={"lazy"}
+                />
+              </div>
+              <div>
+                <Typography component="h4">
+                  LSTM Generated Data for Commits
+                </Typography>
+                <img
+                  src={
+                    githubRepoData?.commitsImageUrls?.lstm_generated_image_url
+                  }
+                  alt={"LSTM Generated Data for Commits"}
+                  loading={"lazy"}
+                />
+              </div>
+              <div>
+                <Typography component="h4">
+                  All Commits
+                </Typography>
+                <img
+                  src={githubRepoData?.commitsImageUrls?.all_issues_data_image}
+                  alt={"All Commits Data"}
+                  loading={"lazy"}
+                />
+              </div>*/
             </div>
             {/* Rendering Timeseries Forecasting of Branches using Tensorflow and
                 Keras LSTM */}
