@@ -39,10 +39,6 @@ const repositories = [
     value: "Go-GitHub",
   },
   {
-    key: "angular/angular",
-    value: "Angular",
-  },
-  {
     key: "angular/angular-cli",
     value: "Angular-cli",
   },
