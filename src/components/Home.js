@@ -239,6 +239,10 @@ export default function Home() {
               title={`Contributors for ${repository.value}`}
               data={githubRepoData?.contributors}
             />
+            <BarCharts
+              title={`Releases for ${repository.value}`}
+              data={githubRepoData?.releases}
+            />
             <Divider
               sx={{ borderBlockWidth: "3px", borderBlockColor: "#FFA500" }}
             />
@@ -420,39 +424,6 @@ export default function Home() {
                   loading={"lazy"}
                 />
               </div>*/
-            </div>
-            {/* Rendering Timeseries Forecasting of Branches using Tensorflow and
-                Keras LSTM */}
-            <div>
-              <Divider
-                sx={{ borderBlockWidth: "3px", borderBlockColor: "#FFA500" }}
-              />
-              <Typography variant="h5" component="div" gutterBottom>
-                Timeseries Forecasting of Branches using Tensorflow and
-                Keras LSTM based on past month
-              </Typography>
-            </div>
-            {/* Rendering Timeseries Forecasting of Contributors using Tensorflow and
-                Keras LSTM */}
-            <div>
-              <Divider
-                sx={{ borderBlockWidth: "3px", borderBlockColor: "#FFA500" }}
-              />
-              <Typography variant="h5" component="div" gutterBottom>
-                Timeseries Forecasting of Contributors using Tensorflow and
-                Keras LSTM based on past month
-              </Typography>
-            </div>
-            {/* Rendering Timeseries Forecasting of Releases using Tensorflow and
-                Keras LSTM */}
-            <div>
-              <Divider
-                sx={{ borderBlockWidth: "3px", borderBlockColor: "#FFA500" }}
-              />
-              <Typography variant="h5" component="div" gutterBottom>
-                Timeseries Forecasting of Releases using Tensorflow and
-                Keras LSTM based on past month
-              </Typography>
             </div>
           </div>
         )}
