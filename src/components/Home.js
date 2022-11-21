@@ -92,8 +92,8 @@ export default function Home() {
   The repository "key" will be sent to flask microservice in a request body
   */
   const [repository, setRepository] = useState({
-    key: "angular/angular",
-    value: "Angular",
+    key: "golang/go",
+    value: "Go",
   });
   /*
 
