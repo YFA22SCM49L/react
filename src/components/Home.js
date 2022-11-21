@@ -227,13 +227,17 @@ export default function Home() {
               data={githubRepoData?.forkCounts}
             />
             <LineChart
-              title={"Created Issues for Every Repository"}
+              title={`Monthly Created Issues for ${repository.value} in last 2 years`}
               data={githubRepoData?.monthlyCreatedIssuesCounts}
             />
             <StackedBarCharts
-              title={"Created and Closed Issues for Every Repository"}
+              title={`Monthly Created and Closed Issues for ${repository.value} in last 2 years`}
               data1={githubRepoData?.monthlyClosedIssuesCounts}
               data2={githubRepoData?.monthlyCreatedIssuesCounts}
+            />
+            <BarCharts
+              title={`Contributors for ${repository.value}`}
+              data={githubRepoData?.contributors}
             />
             <Divider
               sx={{ borderBlockWidth: "3px", borderBlockColor: "#FFA500" }}
